@@ -82,15 +82,15 @@ function App() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav class="main">
 
         <div className="container">
 
           <div className="navbar-brand">
-            <h1>MyToken (MTK) Faucet</h1>
+            <h1>s00n™️ (STM) Faucet</h1>
           </div>
 
-          <div className="navbar-menu">
+          <div class="navbar-menu">
 
             <button className="button is-white connect-wallet" onClick={connectWallet}>
               
@@ -105,7 +105,7 @@ function App() {
 
       </nav>
 
-      <section className='hero'>
+      <section class='hero'>
         <div className='faucet-hero-body'>
           <div className='box'>
 
@@ -116,10 +116,13 @@ function App() {
           defaultValue={walletAddress}
           />
 
-          <button className='button' onClick={getTokens}>Get Tokens</button>
+          <button class='button' onClick={getTokens}>Get Tokens</button>
 
           </div>
         </div>
+
+        
+
       </section>
     </>
     );
