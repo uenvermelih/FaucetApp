@@ -121,8 +121,10 @@ function App() {
           </div>
         </div>
 
-        
+        <br/>
+        <button class="button" href="https://staking-stm-app.vercel.app/">Go to STM Staking App</button>
 
+      
       </section>
     </>
     );
