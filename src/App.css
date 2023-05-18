@@ -23,7 +23,10 @@ body {
   margin: auto;
   width: 50%;
 }
-
+a {
+  color: azure;
+  text-decoration: none;
+}
 .navbar-menu {
   margin: auto;
   margin-top: 30%;

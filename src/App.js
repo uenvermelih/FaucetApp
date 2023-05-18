@@ -116,14 +116,14 @@ function App() {
           defaultValue={walletAddress}
           />
 
-          <button class='button' onClick={getTokens}>Get Tokens</button>
+          <button class='button' onClick={getTokens}>Get STM Tokens</button>
 
           </div>
         </div>
 
         <br/>
-        <button class="button" href="https://staking-stm-app.vercel.app/">Go to STM Staking App</button>
 
+        <a class="button" href="https://staking-stm-app.vercel.app/">Go to STM Staking App ▶️</a>
       
       </section>
     </>
